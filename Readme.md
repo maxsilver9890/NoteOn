@@ -4,7 +4,7 @@ NoteOn is a dynamic web application designed for personal and collaborative note
 
 ## Live Demo
 
-Check out the live demo of NoteOn [here](https://NoteOn-eight.vercel.app/).
+Check out the live demo of NoteOn [here](https://noteon-frontend.onrender.com).
 
 ## Features
 
