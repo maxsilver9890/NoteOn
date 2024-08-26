@@ -17,7 +17,7 @@ app.use(express.json());
 
 // Enable CORS for all routes
 app.use(cors({
-    origin: '',
+    origin: 'https://noteon-frontend.onrender.com',
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true  // Enable credentials (cookies, authorization headers) cross-origin
