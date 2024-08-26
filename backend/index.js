@@ -16,12 +16,12 @@ const app = express();
 app.use(express.json());
 
 // Enable CORS for all routes
-// app.use(cors({
-//     origin: 'https://noteon-frontend.onrender.com',
-//     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
-//     allowedHeaders: ['Content-Type', 'Authorization'],
-//     credentials: true  // Enable credentials (cookies, authorization headers) cross-origin
-// }));
+app.use(cors({
+    origin: 'https://noteon-frontend.onrender.com',
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true  // Enable credentials (cookies, authorization headers) cross-origin
+}));
 
 // MongoDB Connection
 mongoose.connect(process.env.MONGODB_CONNECTION_STRING)
@@ -32,11 +32,11 @@ mongoose.connect(process.env.MONGODB_CONNECTION_STRING)
 
 
 // //middleware to enable cross-origin resource sharing from any domain (`*`) during development
-app.use(
-    cors({
-        origin: "*",
-    })
-);
+// app.use(
+//     cors({
+//         origin: "*",
+//     })
+// );
 
 app.get("/", (req, res) => {
     res.json({ data: "hello" })
