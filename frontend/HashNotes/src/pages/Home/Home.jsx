@@ -20,7 +20,7 @@ const Home = () => {
         <div className="flex flex-col items-center md:mr-10 mb-6 md:mb-0">
           <h1 className="text-4xl font-bold text-blue-600 dark:text-neutral-200 dark:hover:text-primary hover:scale-110 transition-all ease-in-out mb-4">Welcome to NoteOn!</h1>
           <p className="text-gray-700 dark:text-neutral-300 mb-6 line-clamp-5 md:line-clamp-3">
-            NoteOn a fast and efficient web application crafted to contain anything you wish , whether it ia s schedule , about your day or an important event coming up. We got you :)
+            NoteOn a fast and efficient web application crafted to contain anything you wish , whether it's a schedule , about your day or an important event coming up. We got you :)
           </p>
           <div className="flex flex-col md:flex-row items-center justify-center">
             <button
