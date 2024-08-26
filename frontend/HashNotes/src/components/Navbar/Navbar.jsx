@@ -35,9 +35,9 @@ const Navbar = ({ userInfo, onSearchNote, handleClearSearch, onLoginPage, onSign
         (onLoginPage || onSignUpPage) && (
 
           <>
-            {/* HashNotes section */}
+            {/* NoteOn section */}
             <div className='col-span-1 flex justify-center sm:justify-start'>
-              <h2 className="text-2xl font-semibold text-primary py-2">HashNotes</h2>
+              <h2 className="text-2xl font-semibold text-primary py-2">NoteOn</h2>
             </div>
 
             {/* Centered content for larger screens */}
@@ -78,9 +78,9 @@ const Navbar = ({ userInfo, onSearchNote, handleClearSearch, onLoginPage, onSign
         (!onLoginPage && !onSignUpPage) && (
           
           <>
-            {/* HashNotes section */}
+            {/* NoteOn section */}
             <div className="col-span-1 sm:col-span-1 flex justify-center sm:justify-start">
-              <h2 className="text-2xl font-semibold text-primary py-2">HashNotes</h2>
+              <h2 className="text-2xl font-semibold text-primary py-2">NoteOn</h2>
             </div>
 
             {/* Searchbar */}
