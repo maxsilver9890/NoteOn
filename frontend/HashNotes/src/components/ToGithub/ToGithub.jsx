@@ -3,7 +3,7 @@ import { FaGithub } from 'react-icons/fa6';
 
 const ToGithub = () => {
   const handleGitHubRedirect = () => {
-    window.open('https://github.com/SoyaChunkz/Notes-App.git', '_blank');
+    window.open('https://github.com/maxsilver9890/NoteOn', '_blank');
   };
 
   return (
