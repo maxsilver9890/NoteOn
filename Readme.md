@@ -34,7 +34,7 @@ To get started with NoteOn locally, follow these steps:
 
 1. **Clone the repository:**
    ```bash
-   
+      https://github.com/maxsilver9890/NoteOn.git
    ```
 2. **Navigate from the project's root directory and install dependencies for both frontend and backend:**
 - For frontend
@@ -99,5 +99,7 @@ Currently working on creating an extension for **NoteOn** which would allow user
 
 ## Contact
 If you have any questions or suggestions, feel free to reach out:
+email: saxenapratk18@gmail.com
+
 
 
